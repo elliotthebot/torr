@@ -69,7 +69,7 @@ Watch Time {time}
 #CommandHnadler for message "info"
 def info(update: Update, context: CallbackContext) -> None:
     #Never Mind :-)
-    update.message.reply_text("""Bot by @unkusr""", parse_mode=ParseMode.MARKDOWN)
+    update.message.reply_text("""Bot edited by @mirrorxy""", parse_mode=ParseMode.MARKDOWN)
 
 #Add all handlers to the main function.
 def main() -> None:
